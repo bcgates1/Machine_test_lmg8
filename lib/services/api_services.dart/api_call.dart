@@ -2,7 +2,8 @@ import 'package:hivetest/services/db_services/hive_db.dart';
 import 'package:hivetest/views/common/alert.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:connectivity/connectivity.dart';
+// import 'package:connectivity/connectivity.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 
 class GetAPi {
   static Future<List<UserModel>> fetchUserData() async {
